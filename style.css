@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #bdb9b9;
+    color: #070707;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0c0c0c;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f5f0f0;
+    font-family: "Playwrite GB S", cursive;
+    
+}
+
+
+/*textos*/
+.hero {
+    margin-bottom: 3px;
+}
+
+.hero-image img{
+    width: 100%;
+}
+.hero-text{
+    margin-left: 15px;
+}
+
+/*experiencia*/
+
+.profissional h2 a{
+    
+    font-family: "Playwrite GB S", cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: inherit;
+    margin-left: 15px;
+    
+}
+
+.profissional p {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: justify;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+/*Habilidades*/
+.container-habilidades {
+    font-family: "Playwrite GB S", cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.container-habilidades p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*footer*/
+.container-footer {
+    margin-top: 30px;
+    background-color: #0c0c0c;
+    padding: 20px;
+    text-align: center;
+}
+.container-footer a {
+    padding: 30px;
+    color: #f5f0f0;
+    font-family: "Playwrite GB S", cursive;
+    text-decoration: none;
+    
+}
